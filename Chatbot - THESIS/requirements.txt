@@ -1,0 +1,11 @@
+# Telegram Water Filtration Monitoring Bot – dependencies
+# Install with: pip install -r requirements.txt
+
+# Telegram Bot API
+python-telegram-bot==20.7
+
+# CSV and data handling
+pandas>=2.0
+
+# Gemini AI for Diagnose (when status is Critical)
+google-generativeai
